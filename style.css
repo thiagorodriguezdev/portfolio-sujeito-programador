@@ -15,11 +15,10 @@ html {
   scroll-behavior: smooth;
 }
 
-img{
+img {
   max-width: 100%;
   display: block;
 }
-
 
 a {
   display: block;
@@ -165,7 +164,7 @@ li {
 .project-list img {
   width: 22%;
   opacity: 0.7;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
 .project-list img:hover {
@@ -205,7 +204,7 @@ li {
 
 /* RESPONSIVIDADE */
 
-@media (max-width: 1050px){
+@media (max-width: 1050px) {
   /* INICIO MAIN */
   .main h1 {
     font-size: 4.5rem;
@@ -216,7 +215,7 @@ li {
   /* FIM MAIN */
 
   /* INICIO SOBRE */
-  .about{
+  .about {
     flex-direction: column;
     padding-left: 0;
     padding-right: 0;
@@ -234,7 +233,7 @@ li {
   }
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .project-list {
     flex-direction: column;
   }
@@ -244,6 +243,11 @@ li {
 }
 
 @media (max-width: 425px) {
+  .main div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .rodape p {
     font-size: 1.2rem;
   }
@@ -254,5 +258,3 @@ li {
     text-align: center;
   }
 }
-
-
