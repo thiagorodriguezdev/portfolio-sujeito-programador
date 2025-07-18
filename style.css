@@ -203,3 +203,56 @@ li {
   font-weight: bold;
 }
 
+/* RESPONSIVIDADE */
+
+@media (max-width: 1050px){
+  /* INICIO MAIN */
+  .main h1 {
+    font-size: 4.5rem;
+  }
+  .main p {
+    font-size: 1.8rem;
+  }
+  /* FIM MAIN */
+
+  /* INICIO SOBRE */
+  .about{
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+  .about div {
+    max-width: 80%;
+  }
+  .about div h2 {
+    font-size: 45px;
+  }
+  .about img {
+    width: 80%;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 768px){
+  .project-list {
+    flex-direction: column;
+  }
+  .project-list img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 425px) {
+  .rodape p {
+    font-size: 1.2rem;
+  }
+  .rodape span {
+    font-size: 1.4rem;
+  }
+  .about div h2 {
+    text-align: center;
+  }
+}
+
+
