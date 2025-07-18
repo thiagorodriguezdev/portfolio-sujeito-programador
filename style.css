@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 200vh;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.nav{
+  background: #181818;
+  height: 8rem;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.nav-list{
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.nav-list a {
+  font-size: 1.6rem;
+  padding: 2rem;
+  color: #ddd;
+}
+
